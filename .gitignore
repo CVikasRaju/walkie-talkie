@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuildBluetoothSocket
+.cxx
+local.properties
+# Model weights are large and license-tracked separately — do not commit binaries
+app/src/main/assets/models/**/*.onnx
+app/src/main/assets/models/**/*.bin
